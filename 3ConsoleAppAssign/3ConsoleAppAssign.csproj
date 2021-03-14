@@ -6,4 +6,8 @@
     <RootNamespace>_3ConsoleAppAssign</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="NewFolder\" />
+  </ItemGroup>
+
 </Project>
