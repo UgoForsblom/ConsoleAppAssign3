@@ -6,23 +6,29 @@ namespace _3ConsoleApp.Test
 {
     public class UnitTest1
     {
-        
+
         [Fact]
-        public void TestPersons()
+        public void TestToDo()
         {
 
             //Arrange
-         string firstName = "Findlay";
-         string lastName = "forsblom";
+            string description = "Tall";
+            int todoId= 0;
 
             //Act
-            Person person = new Person(firstName, lastName);
+            ToDo todo= new ToDo(todoId, description);
 
             //Assert
-            Assert.Equal(firstName, person.Firstname);
-            Assert.Equal("", person.LastName);
+            Assert.Equal(description, todo.getDescription());
+            Assert.Equal(todoId, todo.getTodId());
+           
 
         }
+        
+
+
+        
+
         
            
 
@@ -33,15 +39,6 @@ namespace _3ConsoleApp.Test
 
 
 
-    //Act
-//    Person person = new Person("Ugo", "Forsblom");
-
-
-       
-
-////Assert
-//{
-//    Assert.GetFullName("Ada");
-//}
+  
 
 }

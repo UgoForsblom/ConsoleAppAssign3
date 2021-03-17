@@ -50,6 +50,9 @@ namespace _3ConsoleApp.Test.modell
         public string GetFullName()
         {
             return $"{firstName} {lastName}"; 
+        }
+       
+            
            
         }
 
@@ -68,7 +71,7 @@ namespace _3ConsoleApp.Test.modell
 
 
 
-}
+
 
     
 

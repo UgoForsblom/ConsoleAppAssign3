@@ -4,24 +4,25 @@ using System.Text;
 
 namespace _3ConsoleApp.Test.modell
 {
-    class ToDo
+    public class ToDo
     {
-        private int ToDoId;
+        private int todoId;
         private string description;
         private bool done;
-        private string assignee;
+        private Person assignee;
 
-        public int getTodId ()
+        public int getTodId()
         {
-            return ToDoId;
+            return todoId;
         }
 
-        public string getDescription ()
+        public string getDescription()
         {
             return description;
         }
 
         public void setDescription(string value)
+
         {
             description = value;
 
@@ -30,9 +31,24 @@ namespace _3ConsoleApp.Test.modell
 
 
         //Making a constructor
-        //public ToDo()
-        //ToDo int = 0;
-        //string description = "Tall";
-    }
-}
 
+        public ToDo(int todoId, string description)
+        {
+            this.todoId = todoId;
+            this.description = description;
+
+        }
+        public string getDescription(string value)
+        {
+            return description;
+        }
+        public string GettodoId(int value)
+        {
+            return $"{description} {todoId}";
+
+
+        }
+
+    }
+
+}

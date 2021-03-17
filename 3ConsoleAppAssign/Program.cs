@@ -12,11 +12,7 @@ namespace _3ConsoleAppAssign
             person.Firstname = "HeJo";
             Console.WriteLine(person.Firstname);
 
-            //ToDo td = new ToDo();
-            //td.setDescription("this is a description");
-            //userInfo.firstName = "Ugo";
-            //userInfo.lastName = "Forsblom";
-            //Console.WriteLine("Person userInfo.height");
+           
         }
     }
 }
